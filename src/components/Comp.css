@@ -1,0 +1,137 @@
+/* header */
+.SearchInput_input__NOK7W {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 0px none;
+}
+
+.nav-link{
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+}
+
+.nav-link:hover{
+    background-color: #606064;
+    box-shadow: 0px 4px 15px rgba(218, 217, 217, 0.5);
+    transform: translateY(-3px);
+}
+.nav-item{
+  margin-right: 30px;
+}
+
+/* ProductCard */
+.card {
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* 👈 smooth animation */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* slightly more noticeable lift */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* 👈 optional shadow for depth */
+}
+
+/* ProductDetails */
+.detailespage{
+background-color: rgb(245, 248, 250);
+}
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  padding: 40px 80px;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  color: #333;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.footer-top ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.footer-top ul li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.footer-top ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-social i {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.footer-links a,
+.footer-bottom-right a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-bottom-right a:hover {
+  text-decoration: underline;
+}
+
+
+ /* MovingItems */
+.moving-cards-wrapper {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  background: #f8f9fa;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.moving-cards-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+.moving-card {
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 0 10px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
