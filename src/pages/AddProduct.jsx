@@ -18,7 +18,7 @@ export default function AddProduct() {
   };
 
   return (
-    <div className="container py-5" style={{ backgroundColor:'#b8f06e'}}>
+    <div className="container-fluid py-5" style={{ backgroundColor:'#b8f06e',width:'100vw'}}>
       <h2 className="text-center">Add New Product</h2>
       <div style={{maxWidth:'70%', paddingLeft:'30%'}}>
         <ProductForm onSubmit={handleAdd} />

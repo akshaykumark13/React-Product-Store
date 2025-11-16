@@ -31,7 +31,8 @@ export default function ProductDetails() {
     margin: 0,
     padding: '30px 0',
     overflowX: 'hidden',
-    color:'black'
+    color:'black',
+    justifyContent:'center'
   }}
 >
   <div className="container-fluid mt-4">

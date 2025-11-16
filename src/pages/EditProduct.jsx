@@ -19,9 +19,9 @@ export default function EditProduct() {
   };
 
   return (
-    <div className="container py-5" style={{ backgroundColor:'#b8f06e'}}>
+    <div className="container-fluid py-5" style={{ backgroundColor:'#b8f06e',width:'100vw'}}>
       <h2 className="text-center">Edit Product</h2>
-      <div className="row justify-content-center" style={{maxWidth:'70%'}}>
+      <div className="row justify-content-center" style={{maxWidth:'70%', alignItems:'center', marginLeft:'15%'}}>
          <ProductForm onSubmit={handleUpdate} initialValues={product} />
       </div>
     </div>
